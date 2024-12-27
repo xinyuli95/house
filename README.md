@@ -1,6 +1,6 @@
 ## Environment
 
-Please use requirements.txt to install Python packages needed.
+Please use requirements.txt to install Python packages needed.\
 Provide your own Gemini API key in the following line. You can get the key in Google AI Studio.
 ```python
 client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
@@ -8,6 +8,7 @@ client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 Either set GEMINI_API_KEY environment variable with your key, or directly write your key in the code.
 
 ## Usage
+Run the following command in terminial
 ```bash
 python genai_queries.py
 ```
